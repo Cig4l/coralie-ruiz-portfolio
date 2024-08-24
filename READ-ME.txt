@@ -1,0 +1,20 @@
+  =>  Template Name    : DevFolio - Developer Portfolio Template
+
+  =>  Template Link    : https://htmlcodex.com/developer-portfolio-template
+
+  =>  Template License : https://htmlcodex.com/license (or read the LICENSE.txt file)
+
+  =>  Template Author  : HTML Codex
+
+  =>  Author Website   : https://htmlcodex.com
+
+  =>  About HTML Codex : HTML Codex is one of the top creators and publishers of Free HTML templates, HTML landing pages, HTML email templates and HTML snippets in the world. Read more at ( https://htmlcodex.com/about-us )
+  
+Avec plus de 10 ans d’expérience dans le domaine du graphisme, je suis une professionnelle polyvalente et passionnée par la création visuelle et le développement web.
+
+Dès mes 18 ans, je suis devenue la personne touche-à-tout au sein de ma maison d'édition familiale, toujours collée à un ordi : responsable de la conception de maquettes et de supports de communication papier et digitaux, ainsi que de la correction et traduction des textes, je bricole aussi un peu HTML quand je dois numériser les bouquins. Je passe une certification en HTML et CSS en 2015, me forme en autodidacte à la suite adobe...
+En parallèle, mes facilités en langues vivantes m'ont conduit à entreprendre des études en espagnol, après quoi je suis devenue enseignante.
+
+En 2023, je réalise que je ne suis plus épanouie dans mon cadre de travail, en constante évolution. J'ai envie de creuser mon affinité avec l'informatique, et je suis une formation de niveau bac+2 en développement web et un bootcamp d'algorithmie fondamentale. Vu mon parcours, m'attendais à adorer en webdesign et développement front-end, mais pas à accrocher autant avec l'algorithmie. Pourtant, ex-championne d'échecs, j'aime être intellectuellement challengée, décortiquer un problème  et trouver la meilleure façon de  le résoudre.
+
+Maintenant, une nouvelle page de ma reconversion se tourne : en septembre, je suivrai une formation intensive chez Diginamic pour obtenir un titre Concepteur Développeur d'Appllications Java/Angular. J'ai aussi décroché une alternance au sein de toHero, un studio montpelliérain spécialisé en transformation digitale.
