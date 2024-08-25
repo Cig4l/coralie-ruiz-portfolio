@@ -104,6 +104,25 @@
         $(this).addClass('filter-active');
         portfolioIsotope.isotope({filter: $(this).data('filter')});
     });
+
+    $('.portfolio-item').hover(
+        function () {
+            let imgHeight = $(this).find('.portfolio-img').height();
+            console.log(imgHeight);
+            let translationValue = "translateY(-" + imgHeight + "px)";
+
+            $(this).find('.portfolio-img img').css("filter", "brightness(0.5)");
+            $(this).find('.portfolio-content').height(imgHeight);
+            $(this).find('.portfolio-content').css('transform', translationValue);
+            $(this).find('.portfolio-content p').css('display', 'block');
+        },
+
+        function () {
+            $(this).find('.portfolio-img img').css("filter", "");
+            $(this).find('.portfolio-content').css('transform', "translateY(-4rem)");
+            $(this).find('.portfolio-content p').css('display', 'none');
+        }
+    )
     
 })(jQuery);
 
