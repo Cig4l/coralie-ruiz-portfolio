@@ -943,9 +943,9 @@ a:focus {
 }
 
 .portfolio-item .portfolio-content {
+    text-align: center;
     position: relative;
     transform: translateY(-4rem);
-    text-align: center;
     color: white;
     transition: visibility 0.3s ease, opacity 0.3s ease;
 }

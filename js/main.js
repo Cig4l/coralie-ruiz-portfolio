@@ -109,17 +109,32 @@
         function () {
             let imgHeight = $(this).find('.portfolio-img').height();
             console.log(imgHeight);
-            let translationValue = "translateY(-" + imgHeight + "px)";
+            let imgHeightMargin = imgHeight - 25;
+            let translationValue = "translateY(-" + imgHeightMargin + "px)";
 
-            $(this).find('.portfolio-img img').css("filter", "brightness(0.5)");
-            $(this).find('.portfolio-content').height(imgHeight);
-            $(this).find('.portfolio-content').css('transform', translationValue);
+            $(this).find('.portfolio-img img').css("filter", "brightness(0.4)");
+            $(this).find('.portfolio-content').height(imgHeightMargin);
+            $(this).find('.portfolio-content').css(
+                'transform', translationValue, 
+                "display", "flex", 
+                "flex-direction", "column", 
+                "justify-content", "center"
+            );
+            $(this).find('.portfolio-content h4').css('color', 'white !important');
+            $(this).find('.portfolio-title').css('color', 'white !important');
             $(this).find('.portfolio-content p').css('display', 'block');
         },
 
         function () {
             $(this).find('.portfolio-img img').css("filter", "");
-            $(this).find('.portfolio-content').css('transform', "translateY(-4rem)");
+            $(this).find('.portfolio-content').height("")
+            $(this).find('.portfolio-content').css(
+                'transform', "", 
+                "display", "", 
+                "flex-direction", "", 
+                "justify-content", ""
+            );            
+            $(this).find('.portfolio-content h4').css('color', '');
             $(this).find('.portfolio-content p').css('display', 'none');
         }
     )
