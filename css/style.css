@@ -848,10 +848,10 @@ a:focus {
     font-size: 14px;
     font-weight: 600;
     color: #ffffff;
-    background: #EF233C;
+    background: var(--bright-blue);
     border: 2px solid transparent;
     border-radius: 0;
-    box-shadow: inset 0 0 0 50px #EF233C;
+    box-shadow: inset 0 0 0 50px var(--bright-blue);
     transition: ease-out 0.3s;
     -webkit-transition: ease-out 0.3s;
     -moz-transition: ease-out 0.3s;
@@ -859,10 +859,10 @@ a:focus {
 
 .portfolio #portfolio-filter li:hover,
 .portfolio #portfolio-filter li.filter-active {
-    color: #EF233C;
+    color: var(--bright-blue);
     background: transparent;
-    box-shadow: inset 0 0 0 0 #EF233C;
-    border-color: #EF233C;
+    box-shadow: inset 0 0 0 0 var(--bright-blue);
+    border-color: var(--bright-blue);
 }
 
 .portfolio .portfolio-item {
@@ -924,10 +924,10 @@ a:focus {
 }
 
 .portfolio .portfolio-item:hover a.btn {
-    color: #EF233C;
+    color: var(--bright-blue);
     background: transparent;
-    box-shadow: inset 0 0 0 0 #EF233C;
-    border-color: #EF233C;
+    box-shadow: inset 0 0 0 0 var(--bright-blue);
+    border-color: var(--bright-blue);
 }
 
 
@@ -939,7 +939,7 @@ a:focus {
     width: 100%;
     margin: 45px 0;
     padding: 90px 0;
-    background: #EF233C;
+    background: var(--bright-blue);
 }
 
 .banner .container {
@@ -1474,7 +1474,7 @@ a:focus {
 
 .footer .footer-social a i {
     margin-right: 15px;
-    font-size: 20px;
+    font-size: 40px;
     color: white;
     transition: .3s;
 }
