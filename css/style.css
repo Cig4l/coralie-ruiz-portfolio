@@ -944,6 +944,8 @@ a:focus {
 
 .portfolio-item .portfolio-content {
     text-align: center;
+    display: flex;
+    flex-direction: column;
     position: relative;
     transform: translateY(-4rem);
     color: white;

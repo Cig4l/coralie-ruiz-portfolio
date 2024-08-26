@@ -114,27 +114,18 @@
 
             $(this).find('.portfolio-img img').css("filter", "brightness(0.4)");
             $(this).find('.portfolio-content').height(imgHeightMargin);
-            $(this).find('.portfolio-content').css(
-                'transform', translationValue, 
-                "display", "flex", 
-                "flex-direction", "column", 
-                "justify-content", "center"
-            );
-            $(this).find('.portfolio-content h4').css('color', 'white !important');
-            $(this).find('.portfolio-title').css('color', 'white !important');
+            $(this).find('.portfolio-content').css('transform', translationValue);
+            $(this).find('.portfolio-content').css("justify-content", "center");
+            $(this).find('.portfolio-title').attr('style','color : white !important');
             $(this).find('.portfolio-content p').css('display', 'block');
+
         },
 
         function () {
             $(this).find('.portfolio-img img').css("filter", "");
-            $(this).find('.portfolio-content').height("")
-            $(this).find('.portfolio-content').css(
-                'transform', "", 
-                "display", "", 
-                "flex-direction", "", 
-                "justify-content", ""
-            );            
-            $(this).find('.portfolio-content h4').css('color', '');
+            $(this).find('.portfolio-content').css('transform', "");     
+            $(this).find('.portfolio-content').css("justify-content", "");       
+            $(this).find('.portfolio-title').attr('style','color : "');
             $(this).find('.portfolio-content p').css('display', 'none');
         }
     )
