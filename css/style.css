@@ -867,8 +867,8 @@ a:focus {
 
 .portfolio .portfolio-item {
     position: relative;
-    padding-bottom: 15px !important;
-    height: 400px;
+    padding: 20px !important;
+    height: 450px;
 }
 
 .portfolio .portfolio-wrap {
@@ -880,6 +880,8 @@ a:focus {
     height: 100%;
     position: relative;
     overflow: hidden;
+    border-radius: 50px 0;
+    box-shadow: -7px 7px 10px rgba(0, 0, 0, 0.1);
 }
 
 .portfolio .portfolio-img img{
@@ -937,6 +939,14 @@ a:focus {
     border-color: var(--bright-blue);
 }
 
+ul .icon-text{
+    font-size: 14px !important;
+    background-color: white;
+    color: var(--dark-grey) !important;
+    font-weight: bold !important;
+    padding: 6px 5px 0 5px;
+}
+
 .portfolio-item .portfolio-content {
     padding: 5px;
     text-align: center;
@@ -950,6 +960,10 @@ a:focus {
 
 .portfolio-item .portfolio-content .portfolio-text-container {
     display: none;
+}
+
+.portfolio-item .portfolio-content h4 {
+    font-weight: bold;
 }
 
 .portfolio-item .portfolio-content ul {
@@ -970,12 +984,9 @@ a:focus {
 
 .portfolio-item .portfolio-content .portfolio-icons li {
     color: white;
-    border: 2px solid white;
+    padding-left: 0 !important;
 }
 
-.portfolio-item .portfolio-content ul li i {
-    border: none !important;
-}
 .portfolio-item .portfolio-content ul li i {
     font-size: 2rem;
     border: none !important;
@@ -1488,7 +1499,7 @@ a:focus {
     color: white;
 }
 
-.footer .footer-info h3 {
+.footer .footer-info h3, #email-footer {
     margin-bottom: 25px;
     font-size: 22px;
     font-weight: 600;
@@ -1579,6 +1590,14 @@ a:focus {
     font-weight: bold;
 }
 
+#email-footer {
+    text-decoration: underline;
+}
+
+#email-footer:hover {
+    color: var(--yellow-bg)
+}
+
 @media (max-width: 575.98px) {
     .footer .footer-info h2 {
         margin-bottom: 20px;
@@ -1586,7 +1605,7 @@ a:focus {
         font-weight: 600;
     }
 
-    .footer .footer-info h3 {
+    .footer .footer-info h3, #email-footer {
         margin-bottom: 20px;
         font-size: 16px;
     }

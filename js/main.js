@@ -113,6 +113,7 @@
             let translationValue = "translateY(-" + imgHeightMargin + "px)";
 
             $(this).find('.portfolio-img img').css("filter", "brightness(0.4)");
+            $(this).find('.portfolio-img').css("box-shadow", "none");
             $(this).find('.portfolio-content').height(imgHeightMargin);
             $(this).find('.portfolio-content').css('transform', translationValue);
             $(this).find('.portfolio-content').css("justify-content", "center");
@@ -122,6 +123,7 @@
 
         function () {
             $(this).find('.portfolio-img img').css("filter", "");
+            $(this).find('.portfolio-img').css("box-shadow", "");
             $(this).find('.portfolio-content').css('transform', "");     
             $(this).find('.portfolio-content').css("justify-content", "");       
             $(this).find('.portfolio-title').attr('style','color : "');
