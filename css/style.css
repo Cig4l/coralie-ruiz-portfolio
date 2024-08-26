@@ -963,7 +963,12 @@ a:focus {
     list-style-type: none;
 }
 
-.portfolio-item .portfolio-content ul li:hover {
+.portfolio-item .portfolio-content .portfolio-btn li:hover {
+    color: white;
+    border: 2px solid white;
+}
+
+.portfolio-item .portfolio-content .portfolio-icons li {
     color: white;
     border: 2px solid white;
 }
