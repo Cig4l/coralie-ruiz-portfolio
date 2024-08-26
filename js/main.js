@@ -117,8 +117,7 @@
             $(this).find('.portfolio-content').css('transform', translationValue);
             $(this).find('.portfolio-content').css("justify-content", "center");
             $(this).find('.portfolio-title').attr('style','color : white !important');
-            $(this).find('.portfolio-content p').css('display', 'block');
-
+            $(this).find('.portfolio-content .portfolio-text-container').css('display', 'block');
         },
 
         function () {
@@ -126,7 +125,7 @@
             $(this).find('.portfolio-content').css('transform', "");     
             $(this).find('.portfolio-content').css("justify-content", "");       
             $(this).find('.portfolio-title').attr('style','color : "');
-            $(this).find('.portfolio-content p').css('display', 'none');
+            $(this).find('.portfolio-content .portfolio-text-container').css('display', 'none');
         }
     )
     
