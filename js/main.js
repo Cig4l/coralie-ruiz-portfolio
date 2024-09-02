@@ -130,6 +130,17 @@
             $(this).find('.portfolio-content .portfolio-text-container').css('display', 'none');
         }
     )
+
+    // $(document).ready(function() {
+    //     $('#contactForm').on('submit', function(event) {
+    //         // Utiliser l'API de validation HTML5
+    //         if (!this.checkValidity()) {
+    //             event.preventDefault(); // Empêche la soumission du formulaire
+    //             $('#success').html("<div class='alert alert-danger'>Veuillez remplir tous les champs requis.</div>");
+    //             return;
+    //         }
+    //     });
+    // });
     
 })(jQuery);
 
